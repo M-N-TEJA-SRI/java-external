@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+class A{
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+   char a=sc.next().charAt(0);
+  
+if(a=='a'||a=='A'||a=='e'||a=='E'||a=='i'||a=='I'||a=='O'||a=='o'||a=='u'||a=='U')
+   System.out.println("vowel");
+else
+   System.out.println("not vowel");
+    }
+}
+output
+a
+vowel
