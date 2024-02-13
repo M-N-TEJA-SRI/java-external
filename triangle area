@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class A{
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+     double b=sc.nextDouble();
+     double h=sc.nextDouble();
+     System.out.println("area "+(b*h)/2);
+     
+    }
+}
+output
+4 6
+area 12.0
