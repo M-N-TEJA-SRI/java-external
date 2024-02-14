@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class A{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+       int h=sc.nextInt();
+       int w=sc.nextInt();
+      //ht in meters
+       if((w/(h*h))<=21)
+       {
+     System.out.println("fit");
+            }
+       else
+       System.out.println("unfit");
+    }
+}
