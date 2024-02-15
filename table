@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class A {
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+       int n=sc.nextInt();
+       int i;
+       for(i=1;i<=n;i++)
+       {
+           System.out.println(n+"x"+i+"="+(n*i));
+       }
+    }
+}
+output
+10
+10x1=10
+10x2=20
+10x3=30
+10x4=40
+10x5=50
+10x6=60
+10x7=70
+10x8=80
+10x9=90
+10x10=100
