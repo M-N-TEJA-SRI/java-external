@@ -1,0 +1,13 @@
+
+import java.util.Scanner;
+class A {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+       String s=sc.nextLine();
+       String se=s.toLowerCase();
+       System.out.println(se);
+    }
+}
+output
+TEJA
+teja
