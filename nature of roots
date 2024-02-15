@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class A {
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+       int a=sc.nextInt();
+          int b=sc.nextInt();
+             int c=sc.nextInt();
+             double d=(b*b)-(4*a*c);
+       if(d==0)
+       System.out.println("real and equal ");
+       else if(d>0)
+       System.out.println("real and unequal ");
+       else
+       System.out.println("imaginary");
+    }
+}
+output
+1 -4 4
+real and equal 
