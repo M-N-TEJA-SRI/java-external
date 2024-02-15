@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class A {
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+       double a=sc.nextDouble();
+       double b=sc.nextDouble();
+       double c=sc.nextDouble();
+       double d=sc.nextDouble();
+     double e=Math.sqrt(Math.pow(c-a,2)+Math.pow(d-b,2));
+      
+       System.out.println(d);
+       
+    }
+}
+output
+0 0 0 0
+0.0
