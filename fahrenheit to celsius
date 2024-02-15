@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class A {
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+     double f=sc.nextDouble();
+     double c=((5*f)-160)/9;
+     System.out.println(c);
+       
+    }
+}
+output
+0
+-17.77777777777778
