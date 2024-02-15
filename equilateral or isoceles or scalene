@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+class A {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+       int a=sc.nextInt();
+       int b=sc.nextInt();
+       int c=sc.nextInt();
+       if(a==b&&b==c&&c==a)
+       System.out.println("equ");
+       else if(a==b||a==c||b==c)
+       System.out.println("iso");
+       else
+       System.out.println("scalene");
+       
+    }
+}
+output
+6 6 5
+iso
