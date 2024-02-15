@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+class A {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+       int cp=sc.nextInt();
+       int sp=sc.nextInt();
+      
+       if(cp>sp)
+       System.out.println("Loss "+(cp-sp));
+       else
+       System.out.println("profit "+(sp-cp));
+       
+    }
+}
+output
+100 90
+Loss 10
