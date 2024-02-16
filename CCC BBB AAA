@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class A {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        char n=sc.next().charAt(0);
+        char i,j;
+       
+            for(i=n;i>='A';i--)
+            {
+                for(j='A';j<=n;j++)
+                {
+                System.out.print(i);
+            }
+            System.out.println();
+        }
+    }
+}
+output
+C
+CCC
+BBB
+AAA
